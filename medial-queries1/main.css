@@ -1,3 +1,54 @@
 body {
   background: blanchedalmond;
 }
+
+* {
+  outline: 1px solid green;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  line-height: 3;
+}
+
+h1 {
+  margin: 0;
+}
+
+.a{
+  background: red;
+}
+
+.b{
+  background: blue;
+  line-height: 14;
+}
+
+.c{
+  background: yellow;
+}
+
+@media (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .a {
+    width: 100%;
+    line-height: 4;
+  }
+
+  .b {
+    flex: 4;
+    display: block;
+    line-height: 16;
+  }
+
+  .c {
+    flex: 1;
+    display: block;
+    line-height: ;
+  }
+}
